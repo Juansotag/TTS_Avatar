@@ -4,6 +4,10 @@ import pandas as pd
 from openai import OpenAI
 from tqdm import tqdm
 import time
+from dotenv import load_dotenv
+
+# Cargar variables desde el archivo .env
+load_dotenv()
 
 # --- CONFIGURACIÓN ---
 # Asegúrate de que tu clave de API esté configurada como variable de entorno o búscala aquí
